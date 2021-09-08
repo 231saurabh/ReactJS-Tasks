@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { changeBg, changeBg1, changeBg2, changeBg3, changeBg4, resetBg } from "../../redux/actions";
-import { BG_KEY } from "../../redux/reducer";
+import { changeBg, changeBg1, changeBg2, changeBg3, changeBg4, resetBg } from "../redux/actions";
+import { BG_KEY } from "../redux/reducer";
 import { Button, Container, Card, Box } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core";
 
